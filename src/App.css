@@ -1,0 +1,44 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 800vw;
+  padding: 0 10px;
+  background-color: #E0FBFC;
+  
+}
+.gridContainer .Footer {
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+.NavBar {
+  background-color: #8994A9;
+
+      /* background-color: #ffffff; */
+      height: 70px;
+      width: 100%;
+     
+   
+}
+.SideBar {
+  grid-column: 2;
+
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 200px;
+      height: 100%;
+ 
+  background-color: #3B577C;
+}
+
+.Content {
+  grid-column: 1;
+  margin-left: auto;
+  background-color: #93BBD2;
+  padding: 1rem;
+}
+
